@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("images/bg.jpg");
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  #output {
+    height: auto;
+    width: 100%;
+    margin-top: 5%;
+  }
+  
+  textarea {
+    resize: none;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    max-height: 250px;
+    border-radius: 10px;
+    font-size: 2.5rem;
+  }
+  
+  .keyboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    row-gap: 1em;
+    column-gap: 1em;
+    width: 100%;
+  }
+  
+  button {
+    font-size: 2em;
+    width: 6rem;
+    min-height: 2.5em;
+    border-radius: 5px;
+    box-shadow: 3px 3px lightblue;
+    background-color: whitesmoke;
+  }
+  
+  #backspace {
+    width: 15rem;
+  }
+  
+  #spacebar {
+    width: 25rem;
+  }
+  
+  #shift {
+    width: 15rem;
+  }
+  
+  @media (max-width: 742px){
+    button{
+        font-size: 1em;
+        width: 3rem;
+    }
+    #backspace {
+        width: 4rem;
+      }
+      
+      #spacebar {
+        width: 20rem;
+      }
+      
+      #shift {
+        width: 6rem;
+      }
+  }
+  @media (max-width: 350px){
+    button{
+        font-size: 1em;
+        width: 2.2rem;
+    }
+    #backspace {
+        width: 2.7rem;
+      }
+      
+      #spacebar {
+        width: 10rem;
+      }
+      
+      #shift {
+        width: 3rem;
+      }
+      
+  }
